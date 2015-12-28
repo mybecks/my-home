@@ -1,0 +1,27 @@
+{
+  "name": "my-home",
+  "version": "0.0.1",
+  "description": "A NodeJS Smart Home Application",
+  "main": "main.js",
+  "scripts": {
+      "start": "node main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mybecks/my-home.git"
+  },
+  "keywords": [
+    "smarthome"
+  ],
+  "author": "Andre Becker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mybecks/my-home/issues"
+  },
+  "homepage": "https://github.com/mybecks/my-home#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "bluebird": "^3.0.6"
+  }
+}
